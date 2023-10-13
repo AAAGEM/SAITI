@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Специфичные стили для разделов */
+#about {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Выравниваем по вертикали */
+  }
+  
+  img {
+    max-width: 50%; /* Задайте желаемую ширину для изображения */
+    margin-right: 20px; /* Добавьте отступ справа от изображения */
+  }
+  
+  .text {
+    flex: 1; /* Занимает оставшееся пространство */
+  }
+#films {
+    background-color: #e6e6e6;
+}
+.image-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-item {
+    width: 100%; /* Изображение будет занимать 30% ширины родительского элемента */
+    height: auto;
+    margin-right: 1px; /* Устанавливает отступ справа между изображениями */
+}
+#contact {
+    background-color: #f2f2f2;
+}
